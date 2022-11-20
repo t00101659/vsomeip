@@ -26,6 +26,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommonAPI", "..\..\capicxx-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommonAPI-SomeIP", "..\..\capicxx-someip-runtime\build_win32\CommonAPI-SomeIP.vcxproj", "{CA5D68C1-58A2-3E2B-B5EB-F66D19CEB725}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AcefClient", "..\..\SOMEIP-Demo\build_win32\AcefClient.vcxproj", "{AA2266A0-226F-3FB4-B491-73DAD6897A9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AcefService", "..\..\SOMEIP-Demo\build_win32\AcefService.vcxproj", "{3F65246A-41FD-308A-B092-865DAA1AC7C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -86,6 +90,22 @@ Global
 		{CA5D68C1-58A2-3E2B-B5EB-F66D19CEB725}.Release|Win32.Build.0 = Release|Win32
 		{CA5D68C1-58A2-3E2B-B5EB-F66D19CEB725}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
 		{CA5D68C1-58A2-3E2B-B5EB-F66D19CEB725}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{AA2266A0-226F-3FB4-B491-73DAD6897A9E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AA2266A0-226F-3FB4-B491-73DAD6897A9E}.Debug|Win32.Build.0 = Debug|Win32
+		{AA2266A0-226F-3FB4-B491-73DAD6897A9E}.MinSizeRel|Win32.ActiveCfg = Release|Win32
+		{AA2266A0-226F-3FB4-B491-73DAD6897A9E}.MinSizeRel|Win32.Build.0 = Release|Win32
+		{AA2266A0-226F-3FB4-B491-73DAD6897A9E}.Release|Win32.ActiveCfg = Release|Win32
+		{AA2266A0-226F-3FB4-B491-73DAD6897A9E}.Release|Win32.Build.0 = Release|Win32
+		{AA2266A0-226F-3FB4-B491-73DAD6897A9E}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{AA2266A0-226F-3FB4-B491-73DAD6897A9E}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{3F65246A-41FD-308A-B092-865DAA1AC7C7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F65246A-41FD-308A-B092-865DAA1AC7C7}.Debug|Win32.Build.0 = Debug|Win32
+		{3F65246A-41FD-308A-B092-865DAA1AC7C7}.MinSizeRel|Win32.ActiveCfg = Release|Win32
+		{3F65246A-41FD-308A-B092-865DAA1AC7C7}.MinSizeRel|Win32.Build.0 = Release|Win32
+		{3F65246A-41FD-308A-B092-865DAA1AC7C7}.Release|Win32.ActiveCfg = Release|Win32
+		{3F65246A-41FD-308A-B092-865DAA1AC7C7}.Release|Win32.Build.0 = Release|Win32
+		{3F65246A-41FD-308A-B092-865DAA1AC7C7}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{3F65246A-41FD-308A-B092-865DAA1AC7C7}.RelWithDebInfo|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
